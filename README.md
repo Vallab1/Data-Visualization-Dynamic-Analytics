@@ -12,7 +12,7 @@ npm create vite@latest
 npm install typescript --save-dev
 
 #Install dependencies
-npm install
+1:- npm install
 
 #Install Recharts (for charts)
 npm install recharts
