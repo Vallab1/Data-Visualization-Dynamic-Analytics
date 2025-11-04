@@ -1,20 +1,31 @@
-<<<<<<< HEAD
-# Data-Visualization-Dynamic-Analytics
-=======
-# React + Vite
+A modern, responsive heatmap visualization component built with React + TypeScript + Tailwind CSS, designed for financial data such as fund performance, risk metrics, or comparative analytics.
+This component visually compares metrics across multiple funds using a color-scaled table, with tooltips and a side gradient scale.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Run the Project
 
-Currently, two official plugins are available:
+Clone the repository
+git clone https://github.com/yourusername/heatmap-chart.git
+cd heatmap-chart
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Create a React + TypeScript project
+npm create vite@latest
+npm install typescript --save-dev
 
-## React Compiler
+Install dependencies
+npm install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Install Recharts (for charts)
+npm install recharts
 
-## Expanding the ESLint configuration
+Install Lucide React (for icons)
+npm install lucide-react
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> c110677 (Completed)
+Install Tailwind CSS (v3)
+npm install -D tailwindcss@3.3.3 postcss@8.4.27 autoprefixer@10.4.14
+npx tailwindcss init -p
+
+Start the development server
+npm run dev
+
+Open in browser
+Visit http://localhost:5173 to view the app.
