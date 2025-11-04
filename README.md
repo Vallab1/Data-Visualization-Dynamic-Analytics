@@ -3,29 +3,29 @@ This component visually compares metrics across multiple funds using a color-sca
 
 🚀 Run the Project
 
-Clone the repository
+#Clone the repository
 git clone https://github.com/yourusername/heatmap-chart.git
 cd heatmap-chart
 
-Create a React + TypeScript project
+#Create a React + TypeScript project
 npm create vite@latest
 npm install typescript --save-dev
 
-Install dependencies
+#Install dependencies
 npm install
 
-Install Recharts (for charts)
+#Install Recharts (for charts)
 npm install recharts
 
-Install Lucide React (for icons)
+#Install Lucide React (for icons)
 npm install lucide-react
 
-Install Tailwind CSS (v3)
+#Install Tailwind CSS (v3)
 npm install -D tailwindcss@3.3.3 postcss@8.4.27 autoprefixer@10.4.14
 npx tailwindcss init -p
 
-Start the development server
+#Start the development server
 npm run dev
 
-Open in browser
+#Open in browser
 Visit http://localhost:5173 to view the app.
